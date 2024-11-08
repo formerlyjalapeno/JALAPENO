@@ -10,10 +10,9 @@ const Project = ({ project }) => {
 
     return (
         <>
-            <article className='projects__Container' onClick={goToDetail}>
-                <h2>{project.title}</h2>
-                <img src={project.image} alt="" />
-            </article>
+            <div className='projects__Container' onClick={goToDetail}>
+                <h3>{project.title}</h3>
+            </div>
 
         </>
     );

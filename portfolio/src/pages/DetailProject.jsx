@@ -12,13 +12,17 @@ const DetailProject = () => {
     }
 
     return (
-        <section className="project__Card">
-            <img src={project.image} alt="" />
-            <h2>{project.title}</h2>
-            <h3>{project.date}</h3>
-            <p>{project.description}</p>
-            <button onClick={() => navigate(-1)}>GO BACK</button>
-        </section>
+      <section className="project__Card">
+        <img src={project.image} alt="" />
+        <h2>
+          {project.title} {project.extra}
+        </h2>
+        <h3>{project.date}</h3>
+        <p>{project.description}</p>
+        <button onClick={() => navigate(-1)}>
+          ◄ &nbsp;&nbsp;&nbsp; GO BACK
+        </button>
+      </section>
     );
 };
 
