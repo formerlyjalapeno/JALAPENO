@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px 50px;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 3rem 0px 10px;
+    width: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: absolute;
+    right: 3vw;
+    list-style: none;
+    height: 6vh;
+    width: 70vw;
+    border-bottom: 1px solid black;
+}
+
+li {
+    margin: 0px 3.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 0px 10px;
+}
+
+
+h1 {
+    font-family: "Purple Purse";
+    font-size: 3rem;
+    line-height: 5.5vh;
+}
+
+.nav__left p {
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.nav__left h1,
+.nav__left p, a:hover, span, .footer__text p {
+    background: linear-gradient(to right, #3B32C1,
+            #1C175B);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* HOMEPAGE */
+.home__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+}
+
+.home__container img {
+    height: 22rem;
+}
+
+.home__intel {
+    text-align: center;
+}
+
+.home__intel h2 {
+    font-size: 3rem;
+    font-weight: 200;
+    line-height: 3rem;
+}
+
+.home__intel span {
+    font-weight: 400;
+}
+
+.home__intel p {
+    font-weight: 200;
+    color: black;
+}
+
+.home__intel ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-top: 2rem;
+}
+
+/* FOOTER */
+footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 94vw;
+    border-top: 1px solid black;
+    padding: 25px 3rem;
+
+}
+
+.footer__text p {
+    font-weight: 600;
+}
