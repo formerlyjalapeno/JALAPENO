@@ -55,11 +55,26 @@ h1 {
 }
 
 .nav__left h1,
-.nav__left p, a:hover, span, .footer__text p {
+.nav__left p,
+a:hover,
+span,
+.footer__text p {
     background: linear-gradient(to right, #3B32C1,
             #1C175B);
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+button {
+    background: linear-gradient(to right, #3B32C1,
+            #1C175B);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    font-size: 1.2rem;
+    font-family: Poppins;
+    font-weight: 600;
 }
 
 /* HOMEPAGE */
@@ -99,6 +114,19 @@ h1 {
     flex-direction: row;
     list-style-type: none;
     margin-top: 2rem;
+}
+
+/* DETAILPAGE */
+
+.projects__Container img {
+    height: 2rem;
+}
+
+.project__Card img {
+    padding-top: 10px;
+    height: 40vh;
+    width: 94vw;
+    object-fit: cover;
 }
 
 /* FOOTER */

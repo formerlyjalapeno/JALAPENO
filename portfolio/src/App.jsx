@@ -7,6 +7,7 @@ import Projects from './pages/Projects';
 import Coding from './pages/Coding';
 import NoPage from './pages/NoPage';
 import Footer from './components/Footer';
+import DetailProject from './pages/DetailProject';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
             <Route path='/aboutme' element={<About />} />
             <Route path='/projects' element={<Projects />} />
             <Route path='/coding' element={<Coding />} />
+            <Route path='/project/:id' element={<DetailProject />} />
             <Route path='/*' element={<NoPage />} />
           </Route>
         </Routes>
