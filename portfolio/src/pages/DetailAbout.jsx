@@ -8,7 +8,7 @@ const DetailAbout = () => {
   const abouts = about.find((abo) => abo.id == Number(id));
 
   if (!about) {
-    return <h2>Project niet gevonden!</h2>;
+    return <h2>Oops! Not found!</h2>;
   }
 
   return (
