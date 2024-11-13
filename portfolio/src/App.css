@@ -144,7 +144,8 @@ button:hover {
 }
 
 .img__box img {
-  width: 10vw;
+  width: 26.7vw;
+  margin: 0px 0.1rem;
 }
 
 .about__box {
@@ -173,7 +174,7 @@ button:hover {
 }
 
 .about__text p {
-  line-height: 0.5rem;
+  line-height: 0.7rem;
 }
 
 .name h3 {
@@ -209,7 +210,12 @@ button:hover {
   padding: 2rem;
   width: 50vh;
   margin: 0.3rem 13rem;
-  background: linear-gradient(to right, #3b32c1, #1c175b);
+  color: white;
+  background: linear-gradient(to right, #3272C1, #1C2E5C);
+}
+
+.projects__Container:hover {
+  cursor: pointer;
 }
 
 /* DETAILPAGE */
@@ -248,12 +254,16 @@ button:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 1rem;
+  width: 97vw;
+  align-items: center;
 }
 
 .lang__container {
+  display: flex;
+  flex-direction: column;
   background-color: #9db1e545;
   padding: 2rem 2.5rem;
-  margin: 1.9rem 0rem;
   width: 31vw;
 }
 

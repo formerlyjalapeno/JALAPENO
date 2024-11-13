@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-const AboutMe = ({about}) => {
+const Hobbies = ({ about }) => {
   const navigate = useNavigate();
 
   function goToMore() {
@@ -9,9 +9,9 @@ const AboutMe = ({about}) => {
 
   return (
     <>
-      <button>MORE ABOUT ME</button>
+      <button>HOBBIES</button>
     </>
   );
 };
 
-export default AboutMe;
+export default Hobbies;
