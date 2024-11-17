@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-const Hobbies = ({ about }) => {
+const Button = ({ about }) => {
   const navigate = useNavigate();
 
   function goToMore() {
@@ -9,9 +9,11 @@ const Hobbies = ({ about }) => {
 
   return (
     <>
-      <button>HOBBIES</button>
+      <button onClick={goToMore}>
+        {about.title}
+      </button>
     </>
   );
 };
 
-export default Hobbies;
+export default Button;

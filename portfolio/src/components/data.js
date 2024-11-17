@@ -9,10 +9,11 @@ const projects = [
   {
     id: 2,
     title: "GAMING WEBSITE",
-    date: "Month date's, 2023",
+    extra: "— FIVE NIGHTS AT FREDDY'S",
+    date: "December 19th, 2023",
     description:
       "Originally a school assignment, yet an assignment that we had weeks for, but I ended up working a week long in total to complete it. For this, we had to create a website about a sepcific game or games. I chose- for a series: Five Nights at Freddies, a classic! I'm currently still working on a small re-vamp but I was proud of this work!",
-    image: "/images/",
+    image: "/images/fnaf.png",
   },
   {
     id: 3,
@@ -40,7 +41,7 @@ const projects = [
   },
   {
     id: 6,
-    title: "Upcoming",
+    title: "UPCOMING",
     date: "Month date's, 2024",
     description: "",
     image: "/images/",
