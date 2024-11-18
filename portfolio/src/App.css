@@ -227,8 +227,9 @@ button:hover {
 .detail__container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+  height: 80vh;
 }
 
 .detail__container h2 {
@@ -236,13 +237,18 @@ button:hover {
   background: linear-gradient(to right, #3272c1, #1c2e5c);
   color: white;
   text-align: center;
-  width: 94vw;
+  width: 74vw;
   margin: 0.5rem 0rem;
 }
 
 .detail__box {
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+
+.detail__box p {
+  width: 69vh;
 }
 
 .detail__box h3 {
@@ -260,7 +266,7 @@ button:hover {
 .about__two {
   display: flex;
   flex-direction: column;
-  margin-left: 30vw;
+  margin-left: 10vw;
 }
 
 /* PROJECT PAGE */

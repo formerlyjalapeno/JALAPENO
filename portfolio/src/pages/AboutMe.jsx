@@ -8,8 +8,15 @@ const AboutMe = () => {
         <section className="detail__box">
           <article className="about__one">
             <img src="/images/image-placeholder.png" />
-            <h3>MY FULL NAME...</h3>
-            <p>Lorem ipsum dolor.</p>
+            <h3>WHO AM I???</h3>
+            <p>
+              So here's the funny part, I don't know either. Haha, kidding!!
+            </p>
+            <br />
+            <p>
+              I like exploring and trying out new things, with a limit, depending on what it is, of course.
+              
+            </p>
           </article>
 
           <article className="about__two">
@@ -19,9 +26,6 @@ const AboutMe = () => {
             <img src="/images/image-placeholder.png" alt="" />
           </article>
         </section>
-        <Link to="/aboutme">
-          <button>◄ &nbsp;&nbsp;&nbsp; GO BACK</button>
-        </Link>
       </main>
     </>
   );

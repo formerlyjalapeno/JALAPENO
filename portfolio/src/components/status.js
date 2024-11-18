@@ -17,7 +17,7 @@ const status = [
   {
     image: "/images/react.png",
     title: "REACT",
-    status: "Beginner",
+    status: "Beginner, decent.",
   },
   {
     image: "/images/python.png",

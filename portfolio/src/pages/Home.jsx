@@ -8,7 +8,7 @@ const Home = () => {
         <h2>
           @JALAPEÑO, <span>HERE.</span>
         </h2>
-        <p>— "I used to be indecisive.. but now I'm not sure."</p>
+        <p>– "I used to think I was indecisive, but now I'm not too sure."</p>
         <article className="line__decoration">
           <img className="one" src="/images/lineonw.svg" alt="" />
           <ul className="hyperlinks__container">
