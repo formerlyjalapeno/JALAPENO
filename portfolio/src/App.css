@@ -129,7 +129,7 @@ button:hover {
   flex-direction: row;
 }
 
-.one,
+/* .one,
 .two {
   position: absolute;
 }
@@ -142,7 +142,7 @@ button:hover {
 .two {
   bottom: 43.5vh;
   right: 17.5vw;
-}
+} */
 
 .line__decoration img {
   height: 2vh;
@@ -237,7 +237,7 @@ button:hover {
   background: linear-gradient(to right, #3272c1, #1c2e5c);
   color: white;
   text-align: center;
-  width: 74vw;
+  width: 75vw;
   margin: 0.5rem 0rem;
 }
 
@@ -248,7 +248,8 @@ button:hover {
 }
 
 .detail__box p {
-  width: 69vh;
+  width: 64.5vh;
+  font-size: 0.8rem;
 }
 
 .detail__box h3 {
@@ -267,6 +268,10 @@ button:hover {
   display: flex;
   flex-direction: column;
   margin-left: 10vw;
+}
+
+.about__two p {
+  margin-bottom: 1rem;
 }
 
 /* PROJECT PAGE */
@@ -293,7 +298,7 @@ button:hover {
   font-size: 1rem;
   text-align: center;
   padding: 3rem 2rem;
-  width: 50vh;
+  width: 40vh;
   margin: 0.3rem 13rem;
   border: 1px solid #1c2e5c;
 }
